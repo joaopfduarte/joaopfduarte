@@ -1,89 +1,131 @@
-# Olá! 👋 Eu sou o joaopfduarte
+# Olá! Eu sou o João Pedro Ferreira Duarte 👋
 
-Sou desenvolvedor(a) interessado(a) em backend, APIs e automação. Aqui mostro meus projetos, estatísticas e atividade no GitHub.
+Estudante de Engenharia de Computação (CEFET-MG, formatura dez/2026)  
+Foco em Backend (Java/Spring) e Cloud/DevOps (IaC com Terraform & Ansible)  
+📍 Timóteo-MG • Disponível para trabalho híbrido em Belo Horizonte e remoto
 
-<!--PROFILE BADGES-->
-![Follow](https://img.shields.io/github/followers/joaopfduarte?label=Seguir&style=social)
-![Repos](https://img.shields.io/github/repo-size/joaopfduarte/joaopfduarte?color=blue)
-![Twitter Follow](https://img.shields.io/twitter/follow/joaopfduarte?style=social)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-joaopedrofduarte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaopedrofduarte)
+[![Email](https://img.shields.io/badge/Email-joaopedrofduarte%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrofduarte@outlook.com)
 
-<!--START_SECTION:activity-->
-Última atualização: <!--LAST_UPDATE-->
-<!--END_SECTION:activity-->
-
-## 🚀 Sobre
-- Linguagens preferidas: Python, JavaScript, Go
-- Gosto de: APIs, automação e arquitetura escalável
-- Contato: [LinkedIn](https://linkedin.com/in/joaopfduarte) • [Site pessoal](https://seusite.example)
-
-## 📊 Minhas estatísticas
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=joaopfduarte&show_icons=true&theme=radical)
-
-![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=joaopfduarte&layout=compact&theme=radical)
-
-![Troféus](https://github-profile-trophy.vercel.app/?username=joaopfduarte&theme=radical)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=joaopfduarte&theme=dark)
-
-## 📌 Repositórios em destaque
-> Use a interface de perfil do GitHub para "pin" os repositórios abaixo.
-- nome-do-repo-1 — descrição curta
-- nome-do-repo-2 — descrição curta
-- nome-do-repo-3 — descrição curta
-
-## 🧰 Ferramentas e recursos úteis
-- Geradores de README: readme.so, awesome-github-profile-readme
-- Cards: github-readme-stats, github-profile-trophy, github-readme-streak-stats
-- Badges: shields.io
-- Para commits automáticos de "heartbeat": GitHub Actions (usar GITHUB_TOKEN)
+> ℹ️ Nota: Alguns links de repositório serão atualizados até 15/12/2025. Estou organizando o portfólio e padronizando READMEs.
 
 ---
 
-Se quiser eu adapto esse README com seu texto real, seus repos favoritos ou adiciono outras integrações (WakaTime, LeetCode, etc.).````
+## 🔧 Habilidades Técnicas (níveis autoavaliados e transparentes)
 
-E aqui está um exemplo simples de workflow (coloque em .github/workflows/update-readme.yml) que atualiza a tag <!--LAST_UPDATE--> no README diariamente e faz commit — isso ajuda a manter o gráfico de contribuições “ativo” sem expor segredos:
+- Linguagens
+  - Java (intermediário) • SQL (intermediário) • JavaScript (básico) • Python (em aprendizado)
+- Backend
+  - Spring Boot • REST API • Validação de dados • Modelagem de domínio • (conceitos) Microservices
+- Bancos de Dados
+  - Relacionais: PostgreSQL, MySQL
+  - NoSQL: MongoDB (básico), Redis (conceitos)
+- Cloud & DevOps
+  - Cloud: Oracle Cloud Infrastructure (intermediário), AWS (em aprendizado)
+  - IaC: Terraform (intermediário), Ansible (intermediário)
+  - Containers & Orquestração: Docker (intermediário), Kubernetes (fundamentos)
+  - CI/CD: GitHub Actions (básico), Jenkins (conceitos)
+  - SO & Versionamento: Linux, Git/GitHub
+- Metodologias & Qualidade
+  - Agile • Scrum • Kanban • (conceitos) TDD • Testes: JUnit/Mockito (básico)
 
-```name=.github/workflows/update-readme.yml
-name: Atualizar README (timestamp diário)
+Badges de tecnologias principais:
+![Java](https://img.shields.io/badge/Java-17+-red?logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-Boot-6DB33F?logo=springboot&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-Automation-EE0000?logo=ansible&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Fundamentos-326CE5?logo=kubernetes&logoColor=white)
+![OCI](https://img.shields.io/badge/Oracle%20Cloud-OCI-F80000?logo=oracle&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Em%20aprendizado-232F3E?logo=amazonaws&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-4169E1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-DB-4479A1?logo=mysql&logoColor=white)
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # diário UTC à meia-noite
-  workflow_dispatch:
+---
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
+## 🌟 Projetos em Destaque
 
-      - name: Atualizar timestamp no README
-        run: |
-          TIMESTAMP="$(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-          # substitui o placeholder <!--LAST_UPDATE--> por texto com timestamp
-          perl -0777 -pe "s/<!--START_SECTION:activity-->.*?<!--END_SECTION:activity-->/<!--START_SECTION:activity-->\\nÚltima atualização: $TIMESTAMP\\n<!--END_SECTION:activity-->/s" -i README.md
+- Sistema de Gestão de Oficinas Eletromecânicas (Java/Spring, PostgreSQL, Docker)  
+  API REST para fluxo completo de oficinas (do check-in ao faturamento).  
+  Status: preparando publicação • Link: será publicado até 15/12/2025
 
-      - name: Commit e push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore: atualizar timestamp do README" || echo "Sem mudanças para commitar"
-          git push
-```
+- Simulador de Mercado Financeiro (MySQL, JS, Docker)  
+  Simulação de compra/venda de ativos com operações de carteira e preços reais.  
+  Status: atualização de link/README • Link: será atualizado até 15/12/2025
 
-Dicas rápidas finais
-- Pinned repos: escolha projetos com README atraente e demos.
-- Menos é mais: não sobrecarregue com imagens/gifs que poluem a leitura.
-- Teste os cards: alguns serviços podem cair ocasionalmente; mantenha alternativas.
-- Segurança: não coloque tokens públicos. Use actions que usam GITHUB_TOKEN (já seguro).
-- Inspiração: visite perfis como os de pessoas que você curte e examine o README (clique em “Edit” para ver a fonte).
+- API de Tarefas (Python + Flask, JWT, PostgreSQL, Docker) — em planejamento  
+  CRUD de tarefas com autenticação, testes (PyTest) e Swagger.
 
-Quer que eu:
-- personalize o README acima com sua bio real e repos destacados?
-- gere o conteúdo pronto para você copiar/colar (ou eu criar os arquivos no repo, se você me der permissão)?
+- Infra AWS Free Tier com Terraform (EC2 + RDS + S3) — em construção  
+  Provisionamento IaC, hardening básico, e documentação de custos no Free Tier.
 
-Diga qual das opções prefere e eu adapto/prossigo.
+> Observação: READMEs serão padronizados com instruções de execução, endpoints e testes.
+
+---
+
+## 🏆 Conquistas e Evidências
+
+- Monitor de Fundamentos de Programação II (CEFET-MG, 2023)  
+  - Tutorias semanais e suporte a projetos; correção de listas e avaliações  
+  - (estimativa conservadora) 12 plantões (3h cada) e 40+ alunos atendidos  
+  - (estimativa) contribuição para +15% na taxa de aprovação do semestre
+
+- PIBIC – Infraestrutura em Nuvem & Automação (CEFET-MG, 2025-atual)  
+  - IaC (Terraform) e automação (Ansible) em Oracle Cloud para plataforma de dados  
+  - (estimativa conservadora) 10–12 clusters provisionados; redução de deploy 4h → 15–20min  
+  - Documentação técnica e padronização de ambientes
+
+- Freelancer – Páginas de Vendas B2B (2021–2025)  
+  - Integrações com APIs do Meta/Google para captação e mensuração de leads  
+  - (estimativa conservadora) 6–8 páginas entregues e +25% de melhoria média na conversão  
+  - Relacionamento e atendimento direto a múltiplos clientes
+
+> Notas: métricas marcadas como estimativas são baseadas em registros próprios e referências de atividades; serão calibradas à medida que os dados forem consolidados nos repositórios.
+
+---
+
+## 🗺️ Roadmap de Estudos (nov/2025 → mar/2026)
+
+- [ ] AWS Certified Cloud Practitioner — alvo: 19/12/2025 (em andamento)
+- [ ] Publicar/organizar repositórios e READMEs padronizados — alvo: 20/12/2025
+- [ ] Python – Fundamentos + 2 projetos
+  - [ ] Projeto 1: Web Scraper de vagas (requests + BeautifulSoup) — alvo: 10/01/2026
+  - [ ] Projeto 2: API de Tarefas (Flask + JWT + tests) — alvo: 24/01/2026
+- [ ] Kubernetes – Fundamentos + deploy local (Kind/Minikube) — alvo: 07/02/2026
+- [ ] HashiCorp Terraform Associate (certificação) — alvo: 21/02/2026
+- [ ] React – Fundamentos (opcional) + mini app — alvo: 15/03/2026
+
+> Este roadmap é um plano e não uma promessa; prazos podem ajustar conforme a evolução do aprendizado.
+
+---
+
+## 🤝 Como posso contribuir
+
+- IaC (Terraform/Ansible) para padronizar e acelerar provisionamento
+- Backend Java/Spring com APIs REST bem documentadas
+- Ambientes Docker prontos para desenvolvimento e testes
+- Escrita técnica (READMEs, diagramas, guias de execução)
+- Colaboração em time com práticas ágeis (Scrum/Kanban)
+
+---
+
+## 🌐 Idiomas
+
+- Português (nativo)  
+- Inglês (C1 – avançado) • objetivo: certificação oficial (EF SET/TOEFL/Cambridge) até mar/2026
+
+---
+
+## 📈 Estatísticas
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=joaopfduarte&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joaopfduarte&layout=compact&theme=default)
+
+---
+
+## 📫 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-joaopedrofduarte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaopedrofduarte)
+[![Email](https://img.shields.io/badge/Email-joaopedrofduarte%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrofduarte@outlook.com)
+
+> Transparência: este README mescla o que já faço hoje com objetivos e itens em aprendizado, sempre sinalizados. Feedbacks e sugestões são bem-vindos! 🙌

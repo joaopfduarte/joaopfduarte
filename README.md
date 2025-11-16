@@ -14,7 +14,7 @@ Foco em Backend (Java/Spring) e Cloud/DevOps (IaC com Terraform & Ansible)
 ## 🔧 Habilidades Técnicas 
 
 - Linguagens
-  - Java (intermediário) • SQL (intermediário) • JavaScript (básico) • Python (em aprendizado)
+  - Java • SQL • JavaScript • Python
 - Backend
   - Spring Boot • REST API • Validação de dados • Modelagem de domínio • (conceitos) Microservices
 - Bancos de Dados

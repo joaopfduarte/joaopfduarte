@@ -11,7 +11,7 @@ Foco em Backend (Java/Spring) e Cloud/DevOps (IaC com Terraform & Ansible)
 
 ---
 
-## 🔧 Habilidades Técnicas (níveis autoavaliados e transparentes)
+## 🔧 Habilidades Técnicas 
 
 - Linguagens
   - Java (intermediário) • SQL (intermediário) • JavaScript (básico) • Python (em aprendizado)
@@ -23,11 +23,10 @@ Foco em Backend (Java/Spring) e Cloud/DevOps (IaC com Terraform & Ansible)
 - Cloud & DevOps
   - Cloud: Oracle Cloud Infrastructure (intermediário), AWS (em aprendizado)
   - IaC: Terraform (intermediário), Ansible (intermediário)
-  - Containers & Orquestração: Docker (intermediário), Kubernetes (fundamentos)
+  - Containers & Orquestração: Docker (intermediário)
   - CI/CD: GitHub Actions (básico), Jenkins (conceitos)
   - SO & Versionamento: Linux, Git/GitHub
-- Metodologias & Qualidade
-  - Agile • Scrum • Kanban • (conceitos) TDD • Testes: JUnit/Mockito (básico)
+
 
 Badges de tecnologias principais:
 ![Java](https://img.shields.io/badge/Java-17+-red?logo=openjdk&logoColor=white)
@@ -44,26 +43,16 @@ Badges de tecnologias principais:
 ---
 
 ## 🌟 Projetos em Destaque
+- "EM CONSTRUÇÃO"
 
-- Sistema de Gestão de Oficinas Eletromecânicas (Java/Spring, PostgreSQL, Docker)  
-  API REST para fluxo completo de oficinas (do check-in ao faturamento).  
-  Status: preparando publicação • Link: será publicado até 15/12/2025
-
-- Simulador de Mercado Financeiro (MySQL, JS, Docker)  
-  Simulação de compra/venda de ativos com operações de carteira e preços reais.  
-  Status: atualização de link/README • Link: será atualizado até 15/12/2025
-
-- API de Tarefas (Python + Flask, JWT, PostgreSQL, Docker) — em planejamento  
-  CRUD de tarefas com autenticação, testes (PyTest) e Swagger.
-
-- Infra AWS Free Tier com Terraform (EC2 + RDS + S3) — em construção  
+- Infra OCI Free Tier com Terraform (EC2 + RDS + S3) — em construção  
   Provisionamento IaC, hardening básico, e documentação de custos no Free Tier.
 
 > Observação: READMEs serão padronizados com instruções de execução, endpoints e testes.
 
 ---
 
-## 🏆 Conquistas e Evidências
+## 🏆 Participações Acadêmicas
 
 - Monitor de Fundamentos de Programação II (CEFET-MG, 2023)  
   - Tutorias semanais e suporte a projetos; correção de listas e avaliações  
@@ -128,4 +117,4 @@ Badges de tecnologias principais:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-joaopedrofduarte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaopedrofduarte)
 [![Email](https://img.shields.io/badge/Email-joaopedrofduarte%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedrofduarte@outlook.com)
 
-> Transparência: este README mescla o que já faço hoje com objetivos e itens em aprendizado, sempre sinalizados. Feedbacks e sugestões são bem-vindos! 🙌
+> Transparência: este README mescla o que já faço hoje com objetivos e itens em aprendizado, sempre sinalizados. 
